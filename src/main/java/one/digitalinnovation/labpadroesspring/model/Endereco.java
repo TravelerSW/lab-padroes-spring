@@ -1,9 +1,11 @@
 package one.digitalinnovation.labpadroesspring.model;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
-@Entity
+@EntityScan
 public class Endereco {
     
     @Id
