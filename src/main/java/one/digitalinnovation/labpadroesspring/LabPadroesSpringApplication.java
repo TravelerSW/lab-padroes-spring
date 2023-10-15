@@ -15,8 +15,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * 		@author TravelerSW
  */
 
-@EnableSwagger2
-
 @EnableFeignClients
 @SpringBootApplication
 public class LabPadroesSpringApplication {
